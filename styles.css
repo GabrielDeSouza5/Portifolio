@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #afb1b3;
+    color: #222;
+    transition: 0.3s;
+}
+
+#tema {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: none;
+    background: transparent;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 80px 20px 40px;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.sobremim {
+    background: rgb(199, 198, 198);
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.projeto {
+    background: rgb(199, 198, 198);
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.projeto span {
+    font-size: 14px;
+    color: #555;
+}
+
+.habilidades ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+}
+
+.habilidades li {
+    list-style: none;
+    background: rgb(199, 198, 198);
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+/* MODO ESCURO */
+body.dark {
+    background: #0f0f1a;
+    color: #eee;
+}
+
+body.dark .projeto {
+    background: #1f1f2e;
+}
+
+body.dark .sobremim {
+    background: #1f1f2e;
+}
+
+
+body.dark .habilidades li {
+    background: #2f2f4a;
+}
